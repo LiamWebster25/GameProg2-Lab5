@@ -15,12 +15,6 @@ public class HitboxManagerScript : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void EnableHitbox()
     {
         foreach (Collider attackCollider in attackColliders)
